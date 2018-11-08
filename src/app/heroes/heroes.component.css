@@ -1,0 +1,27 @@
+ul {
+  margin: auto;
+  list-style: none;
+}
+
+li {
+  background-color: rgba(64, 64, 64, 0.3);
+  height: 20px;
+  width: 18vw;
+  margin: 5px;
+  text-align: left;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  padding: 0px;
+}
+
+li > span {
+  background-color: rgba(64, 64, 64, 0.7);
+  border: 1px solid blue;
+  margin: auto;
+  
+}
+
+ul li.selected:hover{
+    background-color: orange !important;
+}
