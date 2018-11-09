@@ -12,6 +12,10 @@
   </label>
 </div> -->
 
+<h2>{{hero.name}} Details</h2>
+<div><span>id: </span>{{hero.id}}</div>
+<div><span>name: </span>{{hero.name}}</div>
+
 <h2>Elements using *ngFor</h2>
 <ul class="heroes">
   <li *ngFor="let hero of heroes"
@@ -32,4 +36,7 @@
     </label>
   </div>
 </div>
-<mat-checkbox>Check me!</mat-checkbox>
+<br>
+
+ 
+ <app-hero-details [hero]="selectedHero"></app-hero-details>
